@@ -29,7 +29,6 @@ public String reverse(String str)
     sNew = sNew + str.substring(i, i+1);
   }
   sNew = noSpaces(sNew);
-  System.out.println(sNew);
   return sNew;
 }
 
